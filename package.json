@@ -1,0 +1,33 @@
+{
+	"name": "grumbra",
+	"displayName": "Grumbra",
+	"description": "A VS Code dark theme inspired by Umbra but with better color choices.",
+	"version": "0.3.4",
+	"publisher": "cydo",
+	"license": "MIT",
+	"keywords": [
+		"Theme",
+		"Dark Theme",
+		"GitHub Theme",
+		"Night Theme",
+		"VS Code Theme"
+	],
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"scripts": {
+		"publish": "vsce publish"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Grumbra",
+				"uiTheme": "vs-dark",
+				"path": "./themes/grumbra-color-theme.json"
+			}
+		]
+	}
+}
